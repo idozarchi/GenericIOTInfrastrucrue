@@ -26,11 +26,11 @@ The project includes four fundamental requests:
 
 ## Technical Requirements
 
-1. **Thread Pool Management**: Implement a thread pool in the gateway server for efficient request handling.
-2. **Plug & Play Components**: Design the gateway server with plug & play capabilities for easy integration of new components.
-3. **Protocol Handling**: Develop a connection service to manage different networking protocols (HTTP, TCP, UDP).
-4. **Component Independence**: Ensure each project component operates independently.
-5. **Web Interface**: Develop a web interface to interact with the server and execute primary commands.
+1. **[Thread Pool Management](https://github.com/idozarchi/GenericIOTInfrastrucrue/tree/main/Gateway-Server/src/main/java/org/threadpool)**: Implement a thread pool in the gateway server for efficient request handling.
+2. **[Plug & Play Components](https://github.com/idozarchi/GenericIOTInfrastrucrue/tree/main/Gateway-Server/src/main/java/org/plugnplay)**: Design the gateway server with plug & play capabilities for easy integration of new components.
+3. **[Protocol Handling](https://github.com/idozarchi/GenericIOTInfrastrucrue/tree/main/Gateway-Server/src/main/java/org/connectionservice)**: Develop a connection service to manage different networking protocols (HTTP, TCP, UDP).
+4. **[Web Interface](https://github.com/idozarchi/GenericIOTInfrastrucrue/tree/main/IOTWebsite/IOTWebsiteFront/frontend)**: Develop a web interface to interact with the server and execute primary commands.
+5. **Component Independence**: Ensure each project component operates independently.
 
 ## Main Components
 
@@ -38,9 +38,9 @@ The project includes four fundamental requests:
     - Developed using Next.js for the frontend and Tomcat for the backend.
     - Provides a user-friendly interface for managing IoT data.
 
-2. **Gateway Server**
-    - [Features the `ConnectionService` supporting HTTP, TCP, and UDP protocols.] (https://github.com/idozarchi/GenericIOTInfrastrucrue/tree/main/Gateway-Server/src/main/java/org/connectionservice)
-    - Includes the `RequestProcessingService` which utilizes a thread pool for efficient request handling. (https://github.com/idozarchi/GenericIOTInfrastrucrue/tree/main/Gateway-Server/src/main/java/org/rps)
+2. **[Gateway Server](https://github.com/idozarchi/GenericIOTInfrastrucrue/tree/main/Gateway-Server/src/main/java/org)**
+    - Features the `ConnectionService` supporting HTTP, TCP, and UDP protocols.
+    - Includes the `RequestProcessingService` which utilizes a thread pool for efficient request handling.
 
 ## Directory Structure
 
