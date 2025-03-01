@@ -24,7 +24,7 @@ The project includes four fundamental requests:
 
 * The IoT infrastructure is designed to allow the addition of new commands on demand without requiring server downtime.
 
-## Technical Requirements
+## Technical Capabilities
 
 1. **[Thread Pool Management](https://github.com/idozarchi/GenericIOTInfrastrucrue/tree/main/Gateway-Server/src/main/java/org/threadpool)**: Implement a thread pool in the gateway server for efficient request handling.
 2. **[Plug & Play Components](https://github.com/idozarchi/GenericIOTInfrastrucrue/tree/main/Gateway-Server/src/main/java/org/plugnplay)**: Design the gateway server with plug & play capabilities for easy integration of new components.
