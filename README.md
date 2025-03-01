@@ -1,7 +1,10 @@
 # Generic IoT Infrastructure
 
-This project is a comprehensive IoT infrastructure designed to facilitate the management of data from IoT devices. 
-The entire system is built from scratch with minimal reliance on external libraries to ensure maximum control and customization.
+This project is a demonstration of an IoT management system designed for companies.
+It provides a scalable and concurrent solution for registering, managing, and collecting data from IoT devices efficiently.
+With this system, companies can onboard their devices and define flexible, device-specific APIs tailored to their operational needs.
+
+The project is built with Next.js and React for the frontend and Java for the backend.
 
 ## User Requirements
 
@@ -11,15 +14,7 @@ The entire system is built from scratch with minimal reliance on external librar
 4. **User Interface**: Provide a UI for seamless interaction with the server.
 5. **Protocol Support**: Support multiple networking protocols for diverse IoT devices.
 
-## Technical Requirements
-
-1. **Thread Pool Management**: Implement a thread pool in the gateway server for efficient request handling.
-2. **Plug & Play Components**: Design the gateway server with plug & play capabilities for easy integration of new components.
-3. **Protocol Handling**: Develop a connection service to manage different networking protocols (HTTP, TCP, UDP).
-4. **Component Independence**: Ensure each project component operates independently.
-5. **Web Interface**: Develop a web interface to interact with the server and execute primary commands.
-
-## Base Requests
+## Requests
 
 The project includes four fundamental requests:
 - **Register Company**: Register a new company (user).
@@ -29,6 +24,14 @@ The project includes four fundamental requests:
 
 * The IoT infrastructure is designed to allow the addition of new commands on demand without requiring server downtime.
 
+## Technical Requirements
+
+1. **Thread Pool Management**: Implement a thread pool in the gateway server for efficient request handling.
+2. **Plug & Play Components**: Design the gateway server with plug & play capabilities for easy integration of new components.
+3. **Protocol Handling**: Develop a connection service to manage different networking protocols (HTTP, TCP, UDP).
+4. **Component Independence**: Ensure each project component operates independently.
+5. **Web Interface**: Develop a web interface to interact with the server and execute primary commands.
+
 ## Main Components
 
 1. **Website**
@@ -36,7 +39,7 @@ The project includes four fundamental requests:
     - Provides a user-friendly interface for managing IoT data.
 
 2. **Gateway Server**
-    - Features the `ConnectionService` supporting HTTP, TCP, and UDP protocols.
+    - Features the `ConnectionService` supporting HTTP, TCP, and UDP protocols. (https://github.com/idozarchi/GenericIOTInfrastrucrue/tree/main/Gateway-Server/src/main/java/org/connectionservice)
     - Includes the `RequestProcessingService` which utilizes a thread pool for efficient request handling.
 
 ## Directory Structure
