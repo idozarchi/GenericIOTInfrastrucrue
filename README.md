@@ -34,13 +34,13 @@ The project includes four fundamental requests:
 
 ## Main Components
 
-1. **Website**
+1. **[Website](https://github.com/idozarchi/GenericIOTInfrastrucrue/tree/main/IOTWebsite)**
     - Developed using Next.js for the frontend and Tomcat for the backend.
     - Provides a user-friendly interface for managing IoT data.
 
 2. **Gateway Server**
-    - Features the `ConnectionService` supporting HTTP, TCP, and UDP protocols. (https://github.com/idozarchi/GenericIOTInfrastrucrue/tree/main/Gateway-Server/src/main/java/org/connectionservice)
-    - Includes the `RequestProcessingService` which utilizes a thread pool for efficient request handling.
+    - [Features the `ConnectionService` supporting HTTP, TCP, and UDP protocols.] (https://github.com/idozarchi/GenericIOTInfrastrucrue/tree/main/Gateway-Server/src/main/java/org/connectionservice)
+    - Includes the `RequestProcessingService` which utilizes a thread pool for efficient request handling. (https://github.com/idozarchi/GenericIOTInfrastrucrue/tree/main/Gateway-Server/src/main/java/org/rps)
 
 ## Directory Structure
 
